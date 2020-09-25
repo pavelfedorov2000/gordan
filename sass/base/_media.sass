@@ -1,0 +1,219 @@
+@media (max-width: 1200px)
+    .wick
+        display: none
+    .work
+        &__inner
+            max-width: 1230px
+            padding: 0 15px
+            margin: 0 auto
+        &__item
+            justify-content: space-around
+            max-width: 100%
+            margin-bottom: 50px
+            &:nth-child(1),
+            &:nth-child(3)
+                .work__descr
+                    order: 1
+                .work__img
+                    order: 2
+        &__descr
+            max-width: 70%
+            margin: 0 auto
+            text-align: center
+        &__btn
+            margin: 0 auto
+            margin-top: 20px
+        &__img
+            margin-top: 20px
+    .about-work
+        &__items
+            margin-top: 70px
+        &__item
+            margin-bottom: 70px
+@media (max-width: 991px)
+    .header
+        &__inner
+            justify-content: space-around
+        &__text
+            max-width: 430px
+        &__hr
+            margin-top: 20px
+    .about
+        &__inner
+            max-width: 100%
+    .work
+        &__descr
+            max-width: 100%
+    .about-work
+        &__item
+            width: 50%
+            margin-bottom: 50px
+    .questionary
+        padding: 100px 0
+    .contact
+        justify-content: space-around
+        &__item
+            width: 50%
+        &__links
+            flex-wrap: wrap
+        &__link
+            margin-bottom: 20px
+        &__apps
+            flex-direction: column
+        &__app
+            margin-bottom: 20px
+    .footer
+        &__inner
+            justify-content: center
+            flex-wrap: wrap
+        &__logo
+            width: 100%
+            img
+                display: block
+                margin: 0 auto
+        &__phone
+            width: 100%
+            text-align: center
+            margin-top: 20px
+        &__items
+            margin-top: 20px
+@media (max-width: 767px)
+    .header
+        &__inner
+            flex-wrap: wrap
+            margin-top: 30px
+        &__title, &__text
+            max-width: 100%
+            text-align: center
+            margin: 0 auto
+        &__text
+            padding-top: 20px
+    .about
+        &__text
+            margin-top: 25px
+    .about-work
+        &__items
+            margin-top: 30px
+        &__item
+            width: 100%
+            margin-bottom: 30px
+    .questionary
+        padding: 70px 0 50px
+        &__title
+            max-width: 100%
+            font-size: 50px
+            line-height: 60px
+            text-align: center
+            margin: 0 auto
+            div
+                margin: 0 auto
+    .form
+        &__text
+            text-align: center
+        &__inputs
+            grid-template-columns: 1fr
+        &__input
+            grid-column: 1 / 2
+        &__radio-inputs
+            text-align: center
+        &__submit
+            width: 100%
+            flex-wrap: wrap
+        &__btn
+            margin: 0 auto
+        &__submit-descr
+            margin: 0 auto
+            margin-top: 20px
+    .contact
+        flex-wrap: wrap
+        &__item
+            width: 100%
+        &__item-descr
+            text-align: center
+        &__links
+            justify-content: center
+        &__link
+            padding: 15px
+        &__apps
+            flex-direction: row
+            justify-content: center
+    .footer
+        &__items
+            justify-content: center
+            flex-wrap: wrap
+        &__item
+            width: 40%
+            margin-right: 0
+        &__link
+            width: 100%
+            border-bottom: 0
+            text-decoration: underline
+            text-align: center
+            margin-top: 20px
+@media (max-width: 575px)
+    .header
+        padding: 30px 0
+        &__title
+            font-size: 45px
+            line-height: 50px
+    .about
+        min-height: 400px
+        background: none
+        &__title
+            font-size: 45px
+            line-height: 50px
+    .work
+        padding-top: 0
+        &__title
+            font-size: 45px
+            line-height: 50px
+    .about-work
+        &__title
+            font-size: 45px
+            line-height: 50px
+        &__item
+            margin-bottom: 15px
+    .questionary
+        padding: 80px 0 30px
+        &__title
+            font-size: 35px
+            line-height: 50px
+            div
+                width: 100%
+                background-size: contain
+        &__contact
+            span
+                display: block
+    .contact
+        flex-wrap: wrap
+        &__item
+            width: 100%
+            margin-bottom: 20px
+        &__links
+            flex-wrap: wrap
+        &__link
+            margin: 5px auto
+            padding: 15px
+        &__apps
+            flex-wrap: wrap
+        &__app
+            width: 100%
+            text-align: center
+            margin: 5px auto
+    .form
+        margin-top: 30px
+        &__text
+            font-size: 16px
+            line-height: 20px
+        &__btn
+            width: 100%
+            padding: 20px
+        &__radio-inputs
+            margin: 10px 0
+        &__radio-label
+            margin: 10px auto
+        &__textarea
+            min-height: 100px
+    .footer
+        &__item
+            width: 100%

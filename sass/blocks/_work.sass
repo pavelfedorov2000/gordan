@@ -1,0 +1,59 @@
+.work
+    position: relative
+    z-index: 100
+    padding-top: 97px  
+    &__item
+        max-width: 1295px
+        padding: 0 15px
+        margin: 0 auto
+        +flex
+        flex-wrap: wrap
+        &:nth-child(2)
+            margin: 0 0 0 auto
+            margin-bottom: 30px
+    &__img
+        &:nth-of-type(1)
+            width: 670px
+            +mw
+        &:nth-of-type(2)
+            width: 755px
+            +mw
+        &:nth-of-type(3)
+            width: 725px
+            +mw
+    &__descr
+        max-width: 486px
+    &__suptitle
+        color: $accent
+        font-size: 24px
+        font-weight: 700
+        line-height: 22px
+    &__title
+        color: #17171c
+        font-size: 70px
+        font-weight: 700
+        line-height: 60px
+        letter-spacing: 0.35px
+        margin-top: 20px
+    &__text
+        color: #616166
+        margin-top: 35px
+    &__btn
+        z-index: 100
+        width: 254px
+        height: 75px
+        background-color: transparent
+        background-image: url('../img/bg/button_bg.png')
+        +center
+        color: #ffffff
+        font-size: 14px
+        font-weight: 700
+        letter-spacing: 0.07px
+        +btn
+        margin-top: 28px
+.wick
+    position: absolute
+    z-index: -1
+    bottom: -31px
+    left: 70%
+    transform: translateX(-70%)
